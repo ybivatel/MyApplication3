@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main2"
+    android:background="#fFC107">
+
+    <EditText
+        android:id="@+id/inputa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input0"
+        android:inputType="numberDecimal"
+        android:textSize="26sp" />
+    <EditText
+        android:id="@+id/inputr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input1"
+        android:inputType="numberDecimal"
+        android:textSize="26sp" />
+    <EditText
+        android:id="@+id/inputg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input2"
+        android:inputType="numberDecimal"
+        android:textSize="26sp" />
+    <EditText
+        android:id="@+id/inputb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input3"
+        android:inputType="numberDecimal"
+        android:textSize="26sp" />
+
+    <RadioGroup
+        android:id="@+id/rgGravity"
+        android:layout_width="wrap_content"
+        android:layout_height="371dp">
+
+        <RadioButton
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autoSizeTextType="uniform"
+            android:hint="@string/right" />
+
+        <RadioButton
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autoSizeTextType="uniform"
+            android:hint="@string/left" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/send" />
+</LinearLayout>

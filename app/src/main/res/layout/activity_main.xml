@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main1"
+    android:background="#fFC107">
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/send" />
+    <Button
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/input" />
+    <Button
+        android:id="@+id/help_settings"
+        android:title="помощь"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/help" />
+    <Button
+        android:id="@+id/exit"
+        android:title="выход"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/exit" />
+
+</LinearLayout>

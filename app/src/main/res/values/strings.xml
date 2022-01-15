@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Мое первое приложение</string>
+    <string name="input0">введите a</string>
+    <string name="input1">введите red</string>
+    <string name="input2">введите green</string>
+    <string name="input3">введите blue</string>
+    <string name="right">right</string>
+    <string name="left">left</string>
+    <string name="send">обновить</string>
+    <string name="no">no</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="help">no</string>
+    <string name="input">input</string>
+    <string name="exit">exit</string>
+</resources>
